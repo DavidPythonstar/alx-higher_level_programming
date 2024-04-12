@@ -36,3 +36,6 @@ class TestMaxInteger(unittest.TestCase):
         """Test for mixed values list"""
         mixed = [7, -2, 10.3, 20]
         self.assertEqual(max_integer(mixed), 20)
+
+if __name__ == '__main__':
+unittest.main()
